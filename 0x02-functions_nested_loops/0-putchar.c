@@ -1,17 +1,20 @@
 #include <stdio.h>
 /**
  * main - Entry point.
- * Description program starts and ends here.
- * Return: 0 on success.
+ *
+ * Return: Always 0
  */
 int main(void)
 {
-	char text[8] = "_putchar";
-	int i;
-	for (i = 0; i < 9; i++)
-	{
-		putchar(text[i]);
-	}
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
 	putchar('\n');
+
 	return (0);
 }
