@@ -7,13 +7,16 @@
  */
 void print_alphabet(void)
 {
-	char c;
+	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
 
-	for (c = 'a'; c <= 'z'; c++);
+	int i;
 
+	for (i = 0; i < 26; i++)
 	{
-		putchar(c);
+		putchar(alphabet[i]);
 	}
 
-	putchar('\n');
+	{
+		putchar('\n');
+	}
 }
