@@ -18,5 +18,7 @@ int isdigit(int c)
 		putchar(0);
 	}
 
+	putchar('\n');
+
 	return (0);
 }
