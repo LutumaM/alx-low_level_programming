@@ -8,9 +8,9 @@
  */
 int isupper(int c)
 {
-	if (c >= 'A' && c <= 'Z')
-		return (1);
+	char c;
 
-	else
-		return (0);
+	if (c >= 'A' && c <= 'Z')
+	{
+		printf(
 }
