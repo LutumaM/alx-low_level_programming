@@ -3,10 +3,11 @@
 
 /**
  * print_diagsums - Print the sum of the diagonals of a square matrix
+ *
  * @a: The matrix
  * @size: The size
  *
- * Return: Void
+ * Return: void
  */
 void print_diagsums(int *a, int size)
 {
