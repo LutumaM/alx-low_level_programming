@@ -15,9 +15,17 @@ void print_diagsums(int *a, int size)
 
 	for (b = 0; b < size; b++)
 	{
-		s1 = a[(size + 1) * b];
-		s2 = a[(size - 1) * (b + 1)];
+		s1 += a[b];
+		a += size;
 	}
 
+	a -= size;
+
+	for (b = 0; b < size; b++)
+	{
+		s2 += a[b];
+		a -= size;
+	}
+	
 	printf("%d, %d\n", s1, s2);
 }
