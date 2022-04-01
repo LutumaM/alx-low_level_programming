@@ -6,7 +6,7 @@
  * @argc: Argument count
  * @argv: Argument vector
  *
- * Return: Alwzys zero
+ * Return: Always zero
  */
 int main(int argc, char *argv[])
 {
@@ -15,6 +15,7 @@ int main(int argc, char *argv[])
 	if (argc != 3)
 	{
 		printf("ERROR\n");
+
 		return (1);
 	}
 	else
@@ -22,6 +23,7 @@ int main(int argc, char *argv[])
 		i = atoi(argv[1]);
 		j = atoi(argv[2]);
 		x = i * j;
+
 		printf("%d\n", x);
 	}
 
