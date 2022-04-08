@@ -9,7 +9,7 @@
  *
  * Return: pointer to array of integers
  */
-int *array_range( int min, int max)
+int *array_range(int min, int max)
 {
 	int *p;
 	int i, j = 0;
