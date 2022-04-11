@@ -1,15 +1,15 @@
-#ifndef DOG_H
-#define DOG_H
+#ifndef _HEADER_
+#define _HEADER_
 
 /**
  * struct dog - a new type
- * @name: string
- * @age: float
- * @owner: string
+ * @name: The name of the dog
+ * @age: The age of the dog
+ * @owner: The owner of the dog
  *
- * Description: a new type that contains dog's name, age and owner
+ * Description: The attributes of a dog
  */
-typedef struct dog
+struct dog
 {
 	char *name;
 	float age;
